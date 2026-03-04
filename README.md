@@ -43,3 +43,9 @@ This is a demostartion of chatbot built using Amazon Lex. This mimics a banking 
 - Following is Connect your CheckBalance intent with your Lambda function. This is done through fulfillment which select the lambda function
 <img width="1577" height="880" alt="Screenshot 2026-03-04 093638" src="https://github.com/user-attachments/assets/468005c5-1e27-4247-a5ff-bdd5d9b762b0" />
 
+## Save User Info with Your Lex Chatbot
+- Here implement the chatbox so that it Remember information stored in CheckBalance using context tag. We use the Output context tag which remember information about some specific details after an intent is finished, so other parts of the conversation can use this stored information later. For example, the account type from BalanceCheck could be saved and reused.
+<img width="830" height="363" alt="Screenshot 2026-03-04 164453" src="https://github.com/user-attachments/assets/f6af705e-c38e-4c8c-94ca-f41dece8a775" />
+
+- i the create a follouCheckBalance Intent which configure the chatbot  not to ask for user age or banktype before it shows user's account balance
+<img width="1003" height="719" alt="Screenshot 2026-03-04 170725" src="https://github.com/user-attachments/assets/42788d0b-c3a9-4daa-a0a8-2067d508a8e8" />
