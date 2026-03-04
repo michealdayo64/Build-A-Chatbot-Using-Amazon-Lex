@@ -24,3 +24,22 @@ This is a demostartion of chatbot built using Amazon Lex. This mimics a banking 
 
 - I configure a fallbackIntent just incase the bot does not understand the user message. It then respond with a user-friendly message.
 <img width="441" height="669" alt="Screenshot 2026-03-03 063945" src="https://github.com/user-attachments/assets/b1bbb405-0fdc-4623-a471-5a820fa393ec" />
+
+
+## Add Custom Slots to Your Lex Chatbot
+- Here i created a slots that the user will use to get their account balance. E.g Account type and birthday slot.
+<img width="994" height="461" alt="Screenshot 2026-03-04 074652" src="https://github.com/user-attachments/assets/f0ff5660-e652-43bb-9e41-d7b7b8ec34b1" />
+
+- Then i set up intent to check account balance. Under the intent we add uttrances like "Check my account balace", "what is my account balance"
+<img width="985" height="702" alt="Screenshot 2026-03-04 075901" src="https://github.com/user-attachments/assets/380405d2-3365-48d7-8389-62ab861b4a2b" />
+
+##  Connect Your Lex Chatbot to Lambda
+- Here we create a lambda function that run the backend code that respond to users requesting for their account balance.
+  <img width="1452" height="610" alt="Screenshot 2026-03-04 090130" src="https://github.com/user-attachments/assets/ae57722b-172b-4ed8-8cc6-348370abf4ff" />
+
+- Then i connected Amazon Lex to my newly created lambda using alias as a new version for my chatbot.
+<img width="1105" height="616" alt="Screenshot 2026-03-04 092255" src="https://github.com/user-attachments/assets/b041db88-44cb-4825-98f9-186460727d18" />
+
+- Following is Connect your CheckBalance intent with your Lambda function. This is done through fulfillment which select the lambda function
+<img width="1577" height="880" alt="Screenshot 2026-03-04 093638" src="https://github.com/user-attachments/assets/468005c5-1e27-4247-a5ff-bdd5d9b762b0" />
+
