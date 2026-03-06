@@ -60,6 +60,6 @@ This is a demostartion of chatbot built using Amazon Lex. This mimics a banking 
 <img width="409" height="610" alt="Screenshot 2026-03-06 at 15 32 57" src="https://github.com/user-attachments/assets/5ef2c11c-430e-4778-8675-598175f9d255" />
 
 ## Build Complex Conversations with Multiple Slots
-- I decided to use multiple slots. Here I created a intent called TranferFunds which is literily for the user to transfer money from an account to another account. 
+- I decided to use multiple slots. Here I created a intent called TranferFunds which is literily for the user to transfer money from an account to another account. The image below is how the request and response look like.
 <img width="351" height="539" alt="Screenshot 2026-03-06 at 16 03 23" src="https://github.com/user-attachments/assets/7f650997-ad11-41c1-a5dc-9e5324db86e4" />
 
