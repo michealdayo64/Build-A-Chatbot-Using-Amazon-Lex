@@ -1,4 +1,4 @@
-# Build a Chatbot Using Amazon Lex
+<img width="1440" height="765" alt="Screenshot 2026-03-06 at 17 33 55" src="https://github.com/user-attachments/assets/165e24ce-bd67-410a-a41a-a8d0f9c0428e" /># Build a Chatbot Using Amazon Lex
 This is a demostartion of chatbot built using Amazon Lex. This mimics a banking chatbot where customer can ask for their account balance using prompt like their name and age. They can also make tranfer using the bot.
 
 ## Objective of the project
@@ -65,3 +65,11 @@ This is a demostartion of chatbot built using Amazon Lex. This mimics a banking 
 - I decided to use multiple slots. Here I created a intent called TranferFunds which is literily for the user to transfer money from an account to another account. The image below is how the request and response look like.
 <img width="351" height="539" alt="Screenshot 2026-03-06 at 16 03 23" src="https://github.com/user-attachments/assets/7f650997-ad11-41c1-a5dc-9e5324db86e4" />
 
+## Automate deployment of Lex Chatbot Using CloudFormation
+- I created and configure a stack for my CloudFormation. I used an already prepare template that i uplaoded to my stack. Inside my template file, i automate creation of a Lex Bot that has five intents, multiple slot, fulfilments, confirmations and close response. I also configure an alias which communicated with a lambda funtion that process requests from users and send back a response to the chatbot. All the process was a success making my deployment automated by levearging CloudFormation Infrastructure as a code.
+
+<img width="1437" height="756" alt="Screenshot 2026-03-06 at 17 34 38" src="https://github.com/user-attachments/assets/72b48e1b-0b5a-49f8-9154-39802106a9d1" />
+
+<img width="1440" height="765" alt="Screenshot 2026-03-06 at 17 33 55" src="https://github.com/user-attachments/assets/25f52d48-18e3-4baa-93d9-c8c0dba23547" />
+
+<img width="937" height="782" alt="Screenshot 2026-03-06 at 17 49 25" src="https://github.com/user-attachments/assets/1c0ac2ff-6319-467a-b48d-458c79af89f3" />
