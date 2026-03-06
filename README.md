@@ -1,4 +1,4 @@
-<img width="1440" height="765" alt="Screenshot 2026-03-06 at 17 33 55" src="https://github.com/user-attachments/assets/165e24ce-bd67-410a-a41a-a8d0f9c0428e" /># Build a Chatbot Using Amazon Lex
+# Build a Chatbot Using Amazon Lex
 This is a demostartion of chatbot built using Amazon Lex. This mimics a banking chatbot where customer can ask for their account balance using prompt like their name and age. They can also make tranfer using the bot.
 
 ## Objective of the project
