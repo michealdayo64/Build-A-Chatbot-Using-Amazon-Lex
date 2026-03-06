@@ -12,6 +12,8 @@ This is a demostartion of chatbot built using Amazon Lex. This mimics a banking 
 
 ### 5️⃣ Build Complex Conversations with Multiple Slots
 
+### 6 Automate deployment of Lex Chatbot Using CloudFormation
+
 ## Build Your First Chatbot with Amazon Lex
 - Here i was able to create an the bot basic that will interact with human.
 <img width="1919" height="904" alt="Screenshot 2026-03-03 055542" src="https://github.com/user-attachments/assets/90c6db03-e709-4503-8841-32f21a0c654f" />
