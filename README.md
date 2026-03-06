@@ -49,3 +49,17 @@ This is a demostartion of chatbot built using Amazon Lex. This mimics a banking 
 
 - i the create a follouCheckBalance Intent which configure the chatbot  not to ask for user age or banktype before it shows user's account balance
 <img width="1003" height="719" alt="Screenshot 2026-03-04 170725" src="https://github.com/user-attachments/assets/42788d0b-c3a9-4daa-a0a8-2067d508a8e8" />
+
+- We then add slot for followUpAccountBalance.
+<img width="893" height="455" alt="Screenshot 2026-03-06 at 15 21 37" src="https://github.com/user-attachments/assets/a3363ce6-4d13-43ae-97c7-da146a5a4f16" />
+
+- We add the fulfilment to connect the lambda funtion to followupCheckBalance
+<img width="960" height="681" alt="Screenshot 2026-03-06 at 15 26 48" src="https://github.com/user-attachments/assets/cde7b2fd-f702-47d4-9f00-9c605f99f0cd" />
+
+- Finally, i tested the chatbot by asking for my account balance. At first, it asked for acoount type and age to provide my account balance. Asking for my account balance for the second time, he skips my age and gave me my account balance. This shows it was a success.
+<img width="409" height="610" alt="Screenshot 2026-03-06 at 15 32 57" src="https://github.com/user-attachments/assets/5ef2c11c-430e-4778-8675-598175f9d255" />
+
+## Build Complex Conversations with Multiple Slots
+- I decided to use multiple slots. Here I created a intent called TranferFunds which is literily for the user to transfer money from an account to another account. 
+<img width="351" height="539" alt="Screenshot 2026-03-06 at 16 03 23" src="https://github.com/user-attachments/assets/7f650997-ad11-41c1-a5dc-9e5324db86e4" />
+
